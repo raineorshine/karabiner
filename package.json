@@ -11,5 +11,8 @@
     "build": "node build.js karabiner.json > README.md"
   },
   "license": "ISC",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "karabiner-config-to-markdown": "^0.1.0"
+  }
 }
