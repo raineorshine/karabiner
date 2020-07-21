@@ -17,15 +17,15 @@ This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key
 - Launch apps: Right shift + letters
   - R-Shift + `a` → `open '/Applications/Utilities/Activity Monitor.app'`
   - R-Shift + `c` → `open '/Applications/Calendar.app'`
-  - R-Shift + `k` → `open '/Applications/Sublime Text.app'`
-  - R-Shift + `e` → `open /System/Library/CoreServices/Finder.app`
-  - R-Shift + `t` → `open '/Applications/GitHub Desktop.app'`
+  - R-Shift + `e` → `open '/Applications/Sublime Text.app'`
+  - R-Shift + `f` → `open /System/Library/CoreServices/Finder.app`
+  - R-Shift + `g` → `open '/Applications/GitHub Desktop.app'`
   - R-Shift + `h` → `open '/Applications/Google Chrome.app'`
-  - R-Shift + `j` → `open '/Applications/Notion.app'`
-  - R-Shift + `n` → `open '/Applications/Karabiner-Elements.app'`
+  - R-Shift + `n` → `open '/Applications/Notion.app'`
+  - R-Shift + `k` → `open '/Applications/Karabiner-Elements.app'`
   - R-Shift + `m` → `open '/Applications/Messages.app'`
-  - R-Shift + `d` → `open '/Applications/Spotify.app'`
-  - R-Shift + `f` → `open '/Applications/iTerm.app'`
+  - R-Shift + `s` → `open '/Applications/Spotify.app'`
+  - R-Shift + `t` → `open '/Applications/iTerm.app'`
   - R-Shift + `v` → `open '/Applications/Brave Browser.app'`
   - R-Shift + `w` → `open '/Applications/WhatsApp.app'`
   - R-Shift + `z` → `open '/Applications/zoom.us.app'`
