@@ -2,13 +2,19 @@
 
 This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key bindings.
 
-- Back Tick: Option + Quote
+- Quick Chars
   - L-Option + `'` → `` ` ``
+  - L-Option + `f` → `~`
+  - L-Option + `h` → `-`
+  - L-Option + `q` → `=`
+  - L-Shift + L-Option + `q` → `+`
+  - L-Option + `i` → `_`
+  - L-Option + `r` → `|`
 - Better Braces: Alt + o/i
   - L-Option + `l` → `[`
   - L-Option + `;` → `]`
-  - L-Shift + L-Option + `l` → L-Shift + `[`
-  - L-Shift + L-Option + `;` → L-Shift + `]`
+  - L-Shift + L-Option + `l` → `{`
+  - L-Shift + L-Option + `;` → `}`
   - L-Command + L-Option + `l` → L-Command + `[`
   - L-Command + L-Option + `;` → L-Command + `]`
 - Desktop Navigation: Right shift + brackets
