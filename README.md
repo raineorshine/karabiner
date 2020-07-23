@@ -10,6 +10,7 @@ This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key
   - L-Shift + L-Option + `q` → `+`
   - L-Option + `u` → `_`
   - L-Option + `p` → `|`
+  - L-Option + `Space` → `Space`
 - Better Braces: Alt + o/i
   - L-Option + `l` → `[`
   - L-Option + `;` → `]`
