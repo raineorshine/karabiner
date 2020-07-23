@@ -4,12 +4,12 @@ This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key
 
 - Quick Chars
   - L-Option + `'` → `` ` ``
-  - L-Option + `f` → `~`
+  - L-Option + `t` → `~`
   - L-Option + `h` → `-`
   - L-Option + `q` → `=`
   - L-Shift + L-Option + `q` → `+`
-  - L-Option + `i` → `_`
-  - L-Option + `r` → `|`
+  - L-Option + `u` → `_`
+  - L-Option + `p` → `|`
 - Better Braces: Alt + o/i
   - L-Option + `l` → `[`
   - L-Option + `;` → `]`

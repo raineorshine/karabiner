@@ -5,15 +5,26 @@ const configPath = path.resolve(process.argv[2] || './karabiner.json')
 const config = require(configPath)
 const karabinerConfigToMarkdown = require('karabiner-config-to-markdown')
 
+const colemakRuleNames = [
+  'Launch apps',
+  'Quick Chars',
+]
+
+const or = fns => x => fns[0](x) || fns.length > 1 && or(fns.slice(1))(x)
+const byDescription = description => rule => rule.description.startsWith(description)
+
 // modify config to convert app launcher keys from COLEMAK to QWERTY since they are mnemonics
 // do not convert other shortcuts since they are based only on their location on the keyboard
-const appLauncherRule = config.profiles[0].complex_modifications.rules
-  .find(rule => rule.description.startsWith('Launch apps'))
-appLauncherRule.manipulators.forEach(manipulator => {
-  manipulator.from.key_code = toQwerty(manipulator.from.key_code)
-})
+const colemakRules = config.profiles[0].complex_modifications.rules
+  .filter(or(colemakRuleNames.map(byDescription)))
 
-/** Simple string templeating. Replaces {{key}} with `value` in a template string for each key-value entry in an object. */
+colemakRules.forEach(rule =>
+  rule.manipulators.forEach(manipulator => {
+    manipulator.from.key_code = toQwerty(manipulator.from.key_code) || manipulator.from.key_code
+  })
+)
+
+/** Simple string templating. Replaces {{key}} with `value` in a template string for each key-value entry in an object. */
 const template = (s, o) => {
   let output = s
   for (const [key, value] of Object.entries(o)) {
