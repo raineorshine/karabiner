@@ -11,6 +11,8 @@ This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key
   - L-Option + `u` → `_`
   - L-Option + `p` → `|`
   - L-Option + `Space` → `Space`
+  - L-Option + `,` → `<`
+  - L-Option + `.` → `>`
 - Better Braces: Alt + o/i
   - L-Option + `l` → `[`
   - L-Option + `;` → `]`
