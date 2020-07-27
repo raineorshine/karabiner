@@ -13,7 +13,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "karabiner-config-to-markdown": "^0.2.3",
+    "karabiner-config-to-markdown": "^0.2.4",
     "qwerty-to-colemak": "^0.1.0"
   }
 }
