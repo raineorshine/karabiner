@@ -9,7 +9,7 @@ This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key
   - L-Option + `q` → `=`
   - L-Shift + L-Option + `q` → `+`
   - L-Option + `u` → `_`
-  - L-Option + `p` → `|`
+  - L-Option + `b` → `|`, `|`
   - [L-Shift] + L-Option + `Space` → `Space`
   - L-Option + `,` → `<`
   - L-Option + `.` → `>`

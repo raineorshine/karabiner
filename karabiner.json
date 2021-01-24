@@ -750,7 +750,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "r",
+                                    "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
@@ -758,6 +758,12 @@
                                     }
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "backslash",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    },
                                     {
                                         "key_code": "backslash",
                                         "modifiers": [
