@@ -1222,6 +1222,31 @@
                         ]
                     },
                     {
+                        "description": "Move italic to Cmd + Ctrl + i to make room for easy tab navigation",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command",
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Tab Navigation: Command + h/i",
                         "manipulators": [
                             {

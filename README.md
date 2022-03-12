@@ -38,6 +38,8 @@ This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key
   - R-Shift + `v` → `open '/Applications/Brave Browser.app'`
   - R-Shift + `w` → `open '/Applications/WhatsApp.app'`
   - R-Shift + `z` → `open '/Applications/zoom.us.app'`
+- Move italic to Cmd + Ctrl + i to make room for easy tab navigation
+  - Command + Ctrl + `l` → Command + `l`
 - Tab Navigation: Command + h/i
   - Command + `h` → Command + L-Shift + `[`
   - Command + `l` → Command + L-Shift + `]`
