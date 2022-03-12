@@ -2,6 +2,8 @@
 
 This is my [Karabiner](https://karabiner-elements.pqrs.org) setup for custom key bindings.
 
+The default config file is located at `~/.config/karabiner/karabiner.json`.
+
 {{rules}}
 
 ## karabiner-config-to-markdown
